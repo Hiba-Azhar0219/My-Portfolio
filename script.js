@@ -1,4 +1,5 @@
-var darkness = document.querySelector('.darkness')
+var mainPageContent = document.querySelector('.main-page-content')
+
 setTimeout(() => {
-  darkness.style.visibility = 'visible'
-}, 2000)
+  mainPageContent.style.visibility = 'visible'
+}, 3000)
