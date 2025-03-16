@@ -1,3 +1,4 @@
+//mainpage
 var mainPageContent = document.querySelector('.main-page-content')
 
 setTimeout(() => {

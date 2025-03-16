@@ -1,26 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;1,14..32,300&family=Jacques+Francois&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  font-style: normal;
-}
-.bg-img {
-  max-height: 100vh;
-  width: 100vw;
-  background-image: url('assets/bg.JPG');
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-.bg-img img {
-  object-fit: cover;
-  object-position: center;
-  max-height: 100vh;
-  max-width: 100vw;
-}
-
 @keyframes slidein {
   from {
     transform: translateX(100%);
@@ -31,11 +10,10 @@
   }
 }
 .main-page-content {
-  background-color: rgba(0, 0, 0, 0.676);
-
-  animation: 4s ease-in-out 3s slidein;
+  background-color: var(--overlay-color);
   min-height: 100vh;
   width: 100vw;
+  animation: 4s ease-in-out slidein;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,17 +48,21 @@
   color: rgb(229, 229, 14);
   font-weight: 400;
   font-family: 'Jacques Francois', serif;
+  /* stroke: #474747; */
+  -webkit-text-stroke: 0.2px #474747;
 }
 .roles > h1 {
   font-size: 35px;
   font-weight: 400;
   font-family: 'Jacques Francois', serif;
+  -webkit-text-stroke: 0.2px #474747;
 }
 
 .main-page-content > h4 {
   font-family: sans-serif;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 100;
+  -webkit-text-stroke: 0.1px #474747;
 }
 .main-page-content button {
   margin-top: 3vh;
@@ -96,10 +78,14 @@
   font-family: sans-serif;
   font-weight: 300;
   font-size: 14px;
-  text-decoration: underline;
+}
+.view-more-btn a {
+  color: black;
+  text-decoration: none;
 }
 .main-page-content > button:hover {
   background-color: rgb(234, 231, 10);
   font-size: 16px;
   box-shadow: none;
+  text-decoration: underline;
 }
