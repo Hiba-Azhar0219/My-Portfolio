@@ -17,27 +17,28 @@
 .navbar-content img {
   height: 40px;
 }
+.ham-btn:hover {
+  transform: scale(1.2);
+}
 .main-content {
-  height: 100vh;
+  min-height: calc(100vh - 7vh);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   max-width: 90vw;
-  margin: 3rem auto;
+  margin: 2rem auto;
   justify-content: center;
   text-align: center;
-  margin-top: 30px;
 }
 .myself-img {
   width: 470px;
   filter: grayscale(40%);
   margin: 2.6rem auto;
-  transition: transform 3s ease;
+  transition: transform 2s ease;
 }
 
 .myself-img:hover {
   transform: scale(1.07);
-
   filter: none;
 }
 h2 {

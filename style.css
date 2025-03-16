@@ -13,7 +13,7 @@
   background-color: var(--overlay-color);
   min-height: 100vh;
   width: 100vw;
-  animation: 4s ease-in-out slidein;
+  animation: 4s ease-in-out 3s slidein;
   display: flex;
   flex-direction: column;
   align-items: center;
