@@ -10,12 +10,13 @@
   }
 }
 .main-page-content {
-  background-color: var(--overlay-color);
+  background-color: rgba(0, 0, 0, 0.676);
   min-height: 100vh;
   width: 100vw;
   animation: 4s ease-in-out 3s slidein;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   position: absolute;
   color: white;
@@ -39,6 +40,7 @@
 }
 .roles {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 1vw;

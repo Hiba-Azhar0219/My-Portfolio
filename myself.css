@@ -1,39 +1,44 @@
 .navbar {
   width: 100vw;
-  height: 7vh;
-  border-bottom: #302f2f;
-  background-color: rgba(0, 0, 0, 0.447);
-  position: fixed;
+  height: 6.5vh;
+  background-color: rgba(99, 97, 97, 0.283);
+  position: sticky;
   top: 0;
+  box-shadow: 2px 2px 5px #000;
 }
 .navbar-content {
   display: flex;
   width: 70vw;
-  padding: 4px 0px;
+  padding: 6px 0px;
   margin: auto;
   justify-content: space-between;
   position: relative;
 }
 .navbar-content img {
-  height: 40px;
+  height: 35px;
+}
+.ham-btn {
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 5px;
+  box-shadow: #474747;
+  transition: transform 1.01s ease;
 }
 .ham-btn:hover {
   transform: scale(1.2);
 }
 .main-content {
-  min-height: calc(100vh - 7vh);
+  min-height: calc(100vh - 6vh);
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   max-width: 90vw;
-  margin: 2rem auto;
+  margin: 1rem auto;
   justify-content: center;
   text-align: center;
 }
 .myself-img {
   width: 470px;
   filter: grayscale(40%);
-  margin: 2.6rem auto;
+  margin: 2.2rem auto;
   transition: transform 2s ease;
 }
 
@@ -50,7 +55,7 @@ p {
   font-family: sans-serif;
   font-style: normal;
   font-weight: lighter;
-  color: white;
+  color: rgb(220, 217, 217);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 1px;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;1,14..32,300&family=Jacques+Francois&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +12,7 @@ body {
   height: 100vh;
 }
 :root {
-  --overlay-color: rgba(0, 0, 0, 0.676);
+  --overlay-color: rgba(0, 0, 0, 0.85);
 }
 .bg-img {
   height: 100vh;
@@ -36,4 +38,7 @@ body {
 }
 .yellow-heading {
   color: rgb(229, 229, 14);
+}
+a {
+  text-decoration: none;
 }

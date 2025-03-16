@@ -1,0 +1,24 @@
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-items {
+  height: 70vh;
+  width: 60vw;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(99, 97, 97, 0.283);
+}
+h1 {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Jacques Francois', serif;
+  font-weight: 200;
+}
