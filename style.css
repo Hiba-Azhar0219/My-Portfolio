@@ -81,13 +81,15 @@
   font-weight: 300;
   font-size: 14px;
 }
-.view-more-btn a {
+.view-more-btn {
   color: black;
   text-decoration: none;
+  transition: transform 1.2s ease-out;
 }
-.main-page-content > button:hover {
-  background-color: rgb(234, 231, 10);
-  font-size: 16px;
+.view-more-btn:hover {
+  transform: scale(1.08);
+  background-color: var(--yellow-color);
+  font-size: 15px;
   box-shadow: none;
   text-decoration: underline;
 }

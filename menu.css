@@ -21,4 +21,9 @@ h1 {
   font-size: 3rem;
   font-family: 'Jacques Francois', serif;
   font-weight: 200;
+  transition: transform 1s ease;
+}
+h1:hover {
+  transform: scale(1.06);
+  color: rgb(229, 229, 14);
 }

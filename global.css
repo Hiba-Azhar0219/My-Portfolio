@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-style: normal;
 }
+
 html,
 body {
   overflow: hidden;
@@ -13,6 +14,7 @@ body {
 }
 :root {
   --overlay-color: rgba(0, 0, 0, 0.85);
+  --yellow-color: rgb(229, 229, 14);
 }
 .bg-img {
   height: 100vh;
@@ -21,7 +23,8 @@ body {
   background-size: cover;
   display: flex;
   justify-content: center;
-  position: relative;
+  position: fixed;
+  top: 0;
 }
 .bg-img img {
   object-fit: cover;
@@ -35,10 +38,43 @@ body {
   height: 100%;
   width: 100vw;
   position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto; /* Allows scrolling when content overflows */
 }
 .yellow-heading {
   color: rgb(229, 229, 14);
 }
 a {
   text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  width: 100vw;
+  height: 6.5vh;
+  background-color: rgba(99, 97, 97, 0.283);
+  position: sticky;
+  top: 0;
+  box-shadow: 2px 2px 5px #000;
+}
+.navbar-content {
+  display: flex;
+  width: 70vw;
+  padding: 6px 0px;
+  margin: auto;
+  justify-content: space-between;
+  position: relative;
+}
+.navbar-content img {
+  height: 35px;
+}
+.ham-btn {
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 5px;
+  box-shadow: #474747;
+  transition: transform 1.01s ease;
+}
+.ham-btn:hover {
+  transform: scale(1.2);
 }
