@@ -1,0 +1,54 @@
+* {
+  font-family: 'Jacques Francois', serif;
+  font-style: normal;
+  font-weight: 300;
+}
+h1 {
+  font-family: 'Jacques Francois', serif;
+  font-weight: 300;
+  margin: 2rem;
+  font-size: 30px;
+  text-align: center;
+  color: var(--yellow-color);
+  -webkit-text-stroke: 0.2px #474747;
+}
+.title-statement {
+  color: white;
+  font-size: 28px;
+}
+.services {
+  width: 70vw;
+  margin: auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 30vw;
+  gap: 1rem;
+  text-align: center;
+  padding: 5px 5px;
+  background-color: #6462628d;
+  border-radius: 25px;
+}
+.service-name {
+  justify-content: center;
+  align-items: center;
+}
+.services h2 {
+  color: rgb(236, 236, 17);
+  font-size: 25px;
+}
+.services h3 {
+  color: rgb(247, 245, 245);
+  font-size: 16px;
+  letter-spacing: 0.75px;
+}
