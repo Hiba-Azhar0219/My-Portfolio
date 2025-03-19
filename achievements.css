@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.images {
+  display: flex;
+  gap: 4rem;
+  width: 80vw;
+  margin: auto;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+  transition: transform 1.5s ease-out;
+}
+img:hover {
+  transform: scale(1.5);
+}
