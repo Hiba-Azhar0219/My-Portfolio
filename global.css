@@ -84,3 +84,29 @@ a {
 .mt-5 {
   margin-top: 5rem;
 }
+.horizontal {
+  width: 100%;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid rgb(110, 110, 110);
+}
+footer {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+footer > h3 {
+  color: rgb(206, 206, 206);
+}
+footer a {
+  color: var(--yellow-color);
+  margin: 3px;
+}
+footer img {
+  width: 40px;
+  height: auto;
+}

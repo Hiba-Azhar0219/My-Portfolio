@@ -75,13 +75,13 @@ button {
   border: gray;
   border-radius: 25px;
   font-size: 16px;
-  background-color: rgba(255, 255, 0, 0.651);
+  background-color: rgba(255, 255, 0, 0.813);
   width: 10vw;
   transition: transform 1.3s ease-in-out;
 }
 button:hover {
   transform: scale(1.1);
-  background-color: var(--yellow-color);
+  background-color: yellow;
   text-decoration: underline;
 }
 .message {

@@ -39,7 +39,7 @@
   width: 470px;
   filter: grayscale(40%);
   margin: 2.2rem auto;
-  transition: transform 2s ease;
+  transition: transform 1.05s ease;
 }
 
 .myself-img:hover {
