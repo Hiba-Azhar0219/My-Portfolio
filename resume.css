@@ -1,0 +1,102 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.education-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+  color: rgb(238, 236, 236);
+  -webkit-text-stroke-color: rgb(185, 185, 185);
+  position: relative;
+}
+.education-text {
+  width: 50%;
+  padding: 20px;
+  flex-wrap: wrap;
+  line-height: 50px;
+  font-size: 18px;
+}
+.yellow {
+  color: var(--yellow-color);
+}
+ul > li {
+  padding: 15px;
+  font-family: serif;
+  font-size: 17px;
+  letter-spacing: 1.05px;
+}
+ul li::marker {
+  font-size: 3rem;
+}
+hr {
+  height: 400px;
+  position: absolute;
+  right: 44.75rem;
+}
+
+/* slider */
+.slider {
+  width: 98%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(52, 52, 52);
+  padding: 20px 0;
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: moveCards 18s linear infinite;
+}
+.card {
+  width: 150px;
+  height: 120px;
+  background: linear-gradient(45deg, #201f1f, #342e2d);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@keyframes moveCards {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  } /* Move half the duplicate set */
+}
+
+/* Pause animation on hover */
+.slider:hover .card-container {
+  animation-play-state: paused;
+}
+.w-50 {
+  width: 50px;
+  height: auto;
+}
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  color: white;
+}
+.skills-text {
+  width: 40%;
+  padding: 20px;
+  flex-wrap: wrap;
+  line-height: 50px;
+  font-size: 18px;
+}
