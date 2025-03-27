@@ -92,11 +92,47 @@ hr {
   width: 90%;
   margin: auto;
   color: white;
+  position: relative;
+  margin-top: 5rem;
 }
 .skills-text {
-  width: 40%;
+  width: 45%;
   padding: 20px;
   flex-wrap: wrap;
   line-height: 50px;
   font-size: 18px;
+}
+.skill-bars-portion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.pb-card {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+.pb-spans {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+}
+progress {
+  width: 17rem;
+  height: 0.75rem;
+  border-radius: 7px;
+  box-shadow: 1px 1px 4px rgba(211, 211, 211, 0.7);
+  padding: 2px;
+}
+progress::-webkit-progress-bar {
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: var(--yellow-color);
+  border-radius: 7px;
+  /* box-shadow: 1px 1px 5px 3px rgba(255, 0, 0, 0.8); */
 }
