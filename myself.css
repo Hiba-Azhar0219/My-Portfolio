@@ -60,3 +60,81 @@ p {
   line-height: 1.5;
   letter-spacing: 1px;
 }
+
+/* === Responsive Styling === */
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+  .navbar-content {
+    width: 90vw;
+    padding: 8px 0;
+  }
+
+  .navbar-content img {
+    height: 30px;
+  }
+
+  .main-content {
+    max-width: 95vw;
+    padding: 1rem;
+  }
+
+  .myself-img {
+    width: 80%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  footer h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  footer img {
+    width: 35px;
+  }
+}
+
+/* Mobiles (480px and below) */
+@media screen and (max-width: 480px) {
+  .navbar-content {
+    width: 92vw;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .main-content {
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+
+  .myself-img {
+    width: 90%;
+    margin: 1.5rem auto;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 14px;
+    letter-spacing: 0.8px;
+  }
+
+  footer h3 {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  footer img {
+    width: 30px;
+  }
+}

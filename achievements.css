@@ -22,3 +22,71 @@ img {
 img:hover {
   transform: scale(1.5);
 }
+
+/* === Responsive Styling === */
+
+/* Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+  }
+
+  .images {
+    width: 90vw;
+    gap: 2rem;
+  }
+
+  .images img {
+    height: 160px;
+    max-width: 90vw;
+  }
+}
+
+/* Mobiles (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    padding: 0 10px;
+  }
+
+  .images {
+    width: 95vw;
+    gap: 1.5rem;
+  }
+
+  .images img {
+    height: 160px;
+    max-width: 100%;
+  }
+
+  img:hover {
+    transform: scale(1.5);
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+    padding: 0 10px;
+  }
+
+  footer h3 {
+    font-size: 11px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+  }
+
+  footer a {
+    color: var(--yellow-color);
+    text-decoration: none;
+    font-size: 10px;
+  }
+  footer img {
+    width: 24px;
+  }
+}

@@ -27,3 +27,34 @@ h1:hover {
   transform: scale(1.06);
   color: rgb(229, 229, 14);
 }
+
+/* === Responsive Styling === */
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+  .menu-items {
+    width: 80vw;
+    height: auto;
+    padding: 2rem 1rem;
+    gap: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}
+
+/* Mobiles (480px and below) */
+@media screen and (max-width: 480px) {
+  .menu-items {
+    width: 90vw;
+    padding: 1.5rem 0.5rem;
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+}

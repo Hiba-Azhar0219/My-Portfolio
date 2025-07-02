@@ -103,7 +103,79 @@ h1 {
 
 .vertical {
   margin-top: 2rem;
-  height: 100%vh;
+  height: 100vh;
   width: 1px;
   border: 1px solid var(--yellow-color);
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .service-card,
+  .project-card {
+    width: 80vw;
+    height: auto;
+    padding: 20px;
+  }
+
+  .projects {
+    justify-content: center;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .project-card img {
+    position: static;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    margin-bottom: 1rem;
+  }
+
+  .project-card h3 {
+    position: static;
+    opacity: 1;
+    z-index: 1;
+    font-size: 16px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .title-statement {
+    font-size: 20px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .services,
+  .projects {
+    width: 95vw;
+    gap: 2rem;
+  }
+
+  .service-card,
+  .project-card {
+    width: 90vw;
+    padding: 15px;
+  }
+
+  .project-card img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+  }
+
+  .project-card h3 {
+    opacity: 1;
+    position: static;
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }

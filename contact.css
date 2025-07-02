@@ -108,8 +108,128 @@ input {
   height: 20vh;
   width: 40vw;
 }
+
 ::placeholder {
   color: rgb(204, 204, 204);
   font-size: 16px;
   padding: 7px;
+}
+
+/* === Responsive Styling === */
+
+/* Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .personal-info,
+  .other-info {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .email,
+  .address {
+    width: 90vw;
+    justify-content: center;
+  }
+
+  .other-platforms a {
+    width: 50vw;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 40vw;
+    font-size: 15px;
+  }
+
+  input {
+    width: 80vw;
+    height: 6vh;
+    margin: 0;
+  }
+
+  .subject,
+  .message-input {
+    width: 80vw;
+  }
+
+  .message-input {
+    height: 20vh;
+  }
+  .message {
+    width: 100%;
+    align-items: center;
+  }
+
+  .message input,
+  .message .subject,
+  .message .message-input {
+    margin: 0 auto;
+    display: block;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
+
+/* Mobiles (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+    margin: 1.5rem;
+  }
+
+  .email img,
+  .address img {
+    width: 30px;
+    height: auto;
+  }
+
+  .email,
+  .address {
+    padding: 15px;
+  }
+
+  .other-platforms a {
+    width: 70vw;
+    font-size: 14px;
+  }
+
+  button {
+    width: 60vw;
+    font-size: 14px;
+  }
+
+  input,
+  .subject,
+  .message-input {
+    width: 90vw;
+    font-size: 14px;
+  }
+  .message {
+    width: 100%;
+    align-items: center;
+  }
+
+  .message input,
+  .message .subject,
+  .message .message-input {
+    margin: 0 auto;
+    display: block;
+  }
+  ::placeholder {
+    font-size: 14px;
+  }
+
+  footer h3 {
+    font-size: 13px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  footer img {
+    width: 35px;
+  }
 }

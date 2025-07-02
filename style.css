@@ -93,3 +93,150 @@
   box-shadow: none;
   text-decoration: underline;
 }
+
+/* === Responsive Styling === */
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+  .main-page-content > h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .main-page-content > img {
+    height: 35vh;
+    margin: 4vh;
+  }
+
+  .roles > h1 {
+    font-size: 28px;
+  }
+
+  .roles > h2 {
+    font-size: 22px;
+  }
+
+  .main-page-content > h4 {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .main-page-content > button {
+    width: 30vw;
+    font-size: 13px;
+  }
+}
+
+/* Mobiles (480px and below) */
+@media screen and (max-width: 480px) {
+  .main-page-content {
+    padding: 10px;
+  }
+
+  .main-page-content > h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .main-page-content > img {
+    height: 30vh;
+    margin: 3vh;
+  }
+
+  .roles {
+    flex-direction: column;
+    gap: 0.8vh;
+  }
+
+  .roles > h1 {
+    font-size: 22px;
+  }
+
+  .roles > h2 {
+    font-size: 18px;
+  }
+
+  .main-page-content > h4 {
+    font-size: 14px;
+    padding: 0 8px;
+  }
+
+  .main-page-content > button {
+    width: 45vw;
+    height: 6vh;
+    font-size: 12px;
+  }
+}
+/* === Responsive Styling === */
+
+@media screen and (max-width: 768px) {
+  .main-page-content > h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .main-page-content > img {
+    height: 35vh;
+    margin: 4vh;
+  }
+
+  .roles > h1 {
+    font-size: 28px;
+  }
+
+  .roles > h2 {
+    font-size: 22px;
+  }
+
+  .main-page-content > h4 {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .main-page-content > button {
+    width: 30vw;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-page-content {
+    padding: 10px;
+  }
+
+  .main-page-content > h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .main-page-content > img {
+    height: 30vh;
+    margin: 3vh;
+  }
+
+  .roles {
+    flex-direction: column;
+    gap: 0.8vh;
+  }
+
+  .roles > h1 {
+    font-size: 22px;
+  }
+
+  .roles > h2 {
+    font-size: 18px;
+  }
+
+  .main-page-content > h4 {
+    font-size: 14px;
+    padding: 0 8px;
+  }
+
+  .main-page-content > button {
+    width: 45vw;
+    height: 6vh;
+    font-size: 12px;
+  }
+}
