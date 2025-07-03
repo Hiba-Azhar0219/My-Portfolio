@@ -52,7 +52,7 @@ ul li::marker {
   display: flex;
   gap: 20px;
   width: max-content;
-  animation: moveCards 18s linear infinite;
+  animation: moveCards 20s linear infinite;
 }
 .card {
   width: 150px;
@@ -169,6 +169,7 @@ progress::-webkit-progress-value {
   .slider {
     width: 95%;
     padding: 10px 0;
+    overflow-x: hidden;
   }
 
   .card {
