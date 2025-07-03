@@ -82,16 +82,20 @@
   font-size: 14px;
 }
 .view-more-btn {
-  color: black;
+  display: inline-block;
+  padding: 7px 12px;
+  background-color: rgb(215, 215, 9); /* Example button color */
+  color: #000;
   text-decoration: none;
-  transition: transform 1.2s ease-out;
+  border-radius: 15px;
+  margin-top: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.4s ease-out, transform 0.4s ease-out;
 }
 .view-more-btn:hover {
-  transform: scale(1.08);
-  background-color: var(--yellow-color);
-  font-size: 15px;
-  box-shadow: none;
-  text-decoration: underline;
+  background-color: rgb(187, 187, 14);
+  transform: scale(1.2);
 }
 
 /* === Responsive Styling === */
