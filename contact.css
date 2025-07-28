@@ -84,6 +84,23 @@ button:hover {
   background-color: yellow;
   text-decoration: underline;
 }
+.cv {
+  display: inline-block; /* needed so padding & transform work properly */
+  text-align: center;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 0, 0.813) !important;
+  width: 10vw;
+  text-decoration: none; /* removes underline */
+  color: black !important; /* text color */
+  transition: transform 1.3s ease-in-out;
+}
+
+.cv:hover {
+  transform: scale(1.1); /* adds zoom effect on hover */
+}
 .message {
   display: flex;
   flex-direction: column;
@@ -172,6 +189,12 @@ input {
   h1 {
     font-size: 24px;
   }
+
+  .cv {
+    width: 40vw;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 }
 
 /* Mobiles (max-width: 480px) */
@@ -200,6 +223,11 @@ input {
   button {
     width: 60vw;
     font-size: 14px;
+  }
+  .cv {
+    width: 70vw;
+    font-size: 13px;
+    padding: 8px 14px;
   }
 
   input,
